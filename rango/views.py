@@ -6,6 +6,6 @@ def index(request):
     return render(request, 'rango/index.html', context=context_dict)
 
 def about(request):
-    context_dict = {'your_name': 'Edan Hynes'}  # Replace with your name
+    context_dict = {'your_name': 'Edan Hynes'}
     return render(request,'rango/about.html',context=context_dict)
 
